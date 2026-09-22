@@ -1,0 +1,24 @@
+:root {
+  --color-teal-primary: #075e56;
+  --color-teal-secondary: #0b7a6e;
+  --color-teal-light: #d9f3ed;
+  --color-teal-deep: #043d38;
+  --color-white: #ffffff;
+  --color-black: #0b0b0b;
+
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --content-max-width: 72rem;
+  --header-height: 4.5rem;
+}
+
+@theme {
+  --color-teal-primary: #075e56;
+  --color-teal-secondary: #0b7a6e;
+  --color-teal-light: #d9f3ed;
+  --color-teal-deep: #043d38;
+  --color-ink: #0b0b0b;
+  --color-paper: #ffffff;
+
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
