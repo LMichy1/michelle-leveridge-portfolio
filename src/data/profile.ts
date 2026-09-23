@@ -13,6 +13,7 @@ export interface Profile {
   socialLinks: SocialLink[]
   /** Set to a real path (e.g. "/resume/michelle-leveridge-resume.pdf") once a resume file is added to public/resume/. */
   resumeUrl: string | null
+  email: string | null
 }
 
 export const profile: Profile = {
@@ -37,4 +38,5 @@ export const profile: Profile = {
     },
   ],
   resumeUrl: null,
+  email: 'michelleleveridge79@gmail.com',
 }
